@@ -20,3 +20,5 @@ Debug/
 *.successfulbuild
 *.unsuccessfulbuild
 bin/
+
+test
