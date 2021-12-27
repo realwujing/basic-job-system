@@ -2,7 +2,7 @@
 INC=-I./
 
 test :
-	g++ test.cpp $(INC) -pthread -o test
+	g++ -g test.cpp $(INC) -pthread -o test
 
 .PHONY : clean
 clean :
